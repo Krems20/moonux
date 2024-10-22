@@ -23,11 +23,8 @@ body {
     height: 100%;
     filter: blur(10px);
     z-index: -1;
-    /* Поставим фон на задний план */
     opacity: 0;
-    /* Начальная непрозрачность */
     transition: opacity 2s ease;
-    /* Плавный переход для непрозрачности */
 }
 
 .container {
@@ -41,7 +38,6 @@ body {
     animation: fadeIn 1s forwards;
     position: relative;
     z-index: 1;
-    /* Содержимое будет поверх фона */
 }
 
 .error-code {
